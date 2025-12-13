@@ -1,0 +1,4 @@
+.vscode
+scripts/
+.ruff_cache/
+__pycache__/
