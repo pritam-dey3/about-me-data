@@ -1,0 +1,37 @@
+{
+    "description": "I am a data scientist. I find joy in untangling complex technical puzzles and building intuitive tools. I enjoy working with everything from AI agents and LLMs to machine learning and statistics. I also have fair amount of experience with full-stack development and MLOps to build complete solutions. My real passion is making data speak, turning intricate numbers into clear and compelling stories that anyone can understand and act on.",
+    "personal_information": {
+        "Name": "Pritam Dey",
+        "DOB": "21st March 1998",
+        "Age": 26,
+        "Residing location": "Hyderabad",
+        "Nationality": "India, West Bengal, Kolkata",
+        "Languages": [
+            "English",
+            "Bengali",
+            "Hindi"
+        ],
+        "Hobbies": null,
+        "family": null,
+        "Contact information": {
+            "Email": "pritam.pritamdey.984@gmail.com",
+            "Phone number": null
+        },
+        "Social media profiles": {
+            "LinkedIn": "https://www.linkedin.com/in/pritam-dey/",
+            "GitHub": "https://github.com/pritam-dey3",
+            "Twitter": null
+        },
+        "Professional summary": "As a data scientist, I find joy in untangling complex technical puzzles and\nbuilding intuitive tools. I enjoy working with everything from AI agents and\nLLMs to machine learning and statistics. I also have fair amount of experience\nwith full-stack development and MLOps to build complete solutions. My real\npassion is making data speak, turning intricate numbers into clear and\ncompelling stories that anyone can understand and act on.\n",
+        "Skills and competencies": [
+            "Python",
+            "Javascript",
+            "R",
+            "Rust"
+        ]
+    },
+    "publications": {
+        "description": "MRI-based mild cognitive impairment and Alzheimer's disease classification using an algorithm of combination of variational autoencoder and other machine learning classifiers - (Journal)",
+        "link": "https://journals.sagepub.com/doi/10.1177/25424823241290694"
+    }
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "company": "AI Lens Pvt Ltd.",
+    "role": "Principal Data Scientist",
+    "duration": {
+      "start": "June 2024",
+      "end": "Present"
+    },
+    "responsibilities": [
+      "End-to-end creation of an AI-powered code editor to boost the productivity of clinical statisticians. This can be considered as a cursor and cline alternative for clinical statisticians",
+      "Led end-to-end development and fine-tuning of Large Language Models for code translation between SAS and R.",
+      "Architected and implemented AI powered business analytics solutions, using SOTA machine learning models and LLM to generate insights.",
+      "Implement full stack analytics application using Fast API, React and AWS."
+    ]
+  },
+  {
+    "company": "Syngenta India Pvt. Ltd.",
+    "role": "Data Scientist",
+    "duration": {
+      "start": "May 2023",
+      "end": "June 2024"
+    },
+    "responsibilities": [
+      "Crop genotype analysis by implementing advanced clustering algorithms with genetic hierarchy validation",
+      "Developed computer vision models for plant phenotyping and disease detection using drone imagery",
+      "Led cross-functional teams in delivering scalable ML solutions for agricultural application."
+    ]
+  },
+  {
+    "company": "Dr. Reddy's Laboratories Ltd.",
+    "role": "Data Scientist",
+    "duration": {
+      "start": "August 2021",
+      "end": "April 2023"
+    },
+    "responsibilities": [
+      "Designed and implemented enterprise-wide search engine for investigation data",
+      "Developed anomaly detection models to forecast product stability, directly enhancing quality control and ensuring regulatory compliance.",
+      "Developed intelligent scheduling system using genetic algorithms for medical representative routing",
+      "Created computer vision solutions for visual aid analysis in medical communications"
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "education": [
+    {
+      "institution": "Indian Statistical Institute",
+      "degree": "MSTAT - Masters in Statistics",
+      "duration": "2019-2021",
+      "marks": "Grade: 73%"
+    },
+    {
+      "institution": "Ramakrishna Mission Residential College, Narendrapur",
+      "degree": "B.Sc. in Statistics",
+      "duration": "2016-2019",
+      "marks": "CGPA: 8.8"
+    }
+  ],
+  "courses": [
+    {
+      "name": "CS224N: Natural Language Processing with Deep Learning",
+      "platform": "Stanford Online",
+      "certificate": null,
+      "year": "2021"
+    },
+    {
+      "name": "Sequences, Time Series and Prediction",
+      "platform": "DeepLearning.AI",
+      "certificate": "https://www.coursera.org/account/accomplishments/verify/R9WRWHMY65S6",
+      "year": "2020"
+    },
+    {
+      "name": "Machine Learning",
+      "platform": "Coursera",
+      "certificate": "https://www.coursera.org/account/accomplishments/verify/WGUXWJUGQEXU",
+      "year": "2020"
+    },
+    {
+      "name": "Complete SQL Bootcamp",
+      "platform": "Udemy",
+      "certificate": "https://www.udemy.com/certificate/UC-ccac780c-be59-4109-9011-a0bc24118657/",
+      "year": "2020"
+    },
+    {
+      "name": "Programming, Data Structures and Algorithms using Python",
+      "platform": "NPTEL",
+      "certificate": "https://archive.nptel.ac.in/noc/Ecertificate/?q=noc18-cs21/NPTEL18CS21S45106321810030623.jpg",
+      "year": "2018"
+    },
+    {
+      "name": "Introduction to R software",
+      "platform": "NPTEL",
+      "certificate": "https://archive.nptel.ac.in/content/noc/NOC17/SEM2/Ecertificates/111/noc17-ma17/Course/NPTEL17MA17S2450107171001693.jpg",
+      "year": "2017"
+    }
+  ]
+}

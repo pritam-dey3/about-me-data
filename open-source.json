@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Local Agent",
+        "description": "Local Agent is an open-source framework that allows users to run LLM based agents on their local machines. It enables users to run workflows, automate tasks, and build applications with ease and privacy.",
+        "link": "https://github.com/pritam-dey3/LocalAgent"
+    },
+    {
+        "name": "Interact",
+        "description": "Interact is an LLM orchestration library that provides a user-friendly API for building conversational agents with large language models. It serves as an alternative to LangChain.",
+        "link": "https://github.com/pritam-dey3/Interact"
+    },
+    {
+        "name": "Snatch",
+        "description": "Fully automated script to scrape data from <i>any</i> websites without using any paid services.",
+        "link": "https://github.com/pritam-dey3/Snatch"
+    }
+]
