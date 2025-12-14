@@ -31,7 +31,7 @@
         ]
     },
     "publications": {
-        "description": "MRI-based mild cognitive impairment and Alzheimer's disease classification using an algorithm of combination of variational autoencoder and other machine learning classifiers - (Journal)",
+        "description": "MRI-based mild cognitive impairment and Alzheimer's disease classification using an algorithm of combination of variational autoencoder and other machine learning classifiers",
         "link": "https://journals.sagepub.com/doi/10.1177/25424823241290694"
     }
 }
