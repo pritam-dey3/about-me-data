@@ -1,8 +1,8 @@
 [
     {
-        "name": "Local Agent",
-        "description": "Local Agent is an open-source framework that allows users to run LLM based agents on their local machines. It enables users to run workflows, automate tasks, and build applications with ease and privacy.",
-        "link": "https://github.com/pritam-dey3/LocalAgent"
+        "name": "WingMate",
+        "description": "WingMate is an open-source framework that allows users to run LLM based agents on their local machines. It enables users to run workflows, automate tasks, and build applications with ease and privacy.",
+        "link": "https://github.com/pritam-dey3/WingMate"
     },
     {
         "name": "Interact",
