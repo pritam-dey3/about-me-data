@@ -1,10 +1,23 @@
 [
   {
+  "company": "Amgen",
+  "role": "Data Scientist",
+  "duration": {
+    "start": "January 2026",
+    "end": "Present"
+  },
+  "responsibilities": [
+    "Developing advanced forecasting models to project drug sales performance across therapeutic areas.",
+    "Applying Monte Carlo simulation and Bayesian statistical methods to improve forecast robustness and quantify uncertainty.",
+    "Leveraging agentic AI capabilities to enhance scenario analysis, model automation, and decision support for forecasting workflows."
+  ]
+},
+  {
     "company": "AI Lens Pvt Ltd.",
     "role": "Principal Data Scientist",
     "duration": {
       "start": "June 2024",
-      "end": "Present"
+      "end": "December 2025"
     },
     "responsibilities": [
       "End-to-end creation of an AI-powered code editor to boost the productivity of clinical statisticians. This can be considered as a cursor and cline alternative for clinical statisticians",
