@@ -40,7 +40,6 @@ export type OpenSourceData = OpenSourceItem[];
 export interface PersonalInformation {
     Name: string;
     DOB: string;
-    Age: number;
     "Residing location": string;
     Nationality: string;
     Languages: string[];

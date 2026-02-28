@@ -1,306 +1,446 @@
 [
-  {
-    "project_id": "AIL004",
-    "project_name": "AI Powered Code Editor for Clinical Trials",
-    "description": "AI-powered code editor end-to-end to assist in clinical trial data analysis.",
-    "key_points": [
-      "Build sophisticated AI Agent with code creation, editing, and shell commands execution capabilities.",
-      "Fully integrated support for MCP servers",
-      "Developed a user-friendly interface with Angular and FastAPI."
-    ],
-    "tech_stack": ["LLM", "Agent", "FastAPI", "Angular"],
-    "tags": ["AI Agent", "LLM", "Editor", "full stack"],
-    "organization": "AI Lens",
-    "duration": "Ongoing"
-  },
-  {
-    "project_id": "PRS004",
-    "project_name": "Interact - Open Source Library",
-    "description": "Provide a user-friendly open-source library for building conversational AI agents with LLMs.",
-    "key_points": [
-      "Created and maintained an open-source library called Interact as an alternative to LangChain.",
-      "Provided a user-friendly API for building conversational agents with LLMs."
-    ],
-    "tech_stack": ["LLM", "Open Source"],
-    "tags": ["open source", "LLMs", "conversational agents"],
-    "organization": "Personal Project",
-    "duration": "Ongoing"
-  },
-  {
-    "project_id": "AIL001",
-    "project_name": "Instruction tune LLM",
-    "description": "Advanced LLM finetuning for converting SAS codes into R.",
-    "key_points": [
-      "Finetuned a large language model to convert SAS code to R and vice versa.",
-      "Prepare synthetic dataset with prompt and response pairs for code conversion."
-    ],
-    "tech_stack": ["PyTorch", "Transformers", "Axolotl"],
-    "tags": ["fine tuning", "AI", "LLM"],
-    "organization": "AI Lens",
-    "duration": "June 2024 - Present"
-  },
-  {
-    "project_id": "DRL007",
-    "project_name": "Visual-Aid Analysis",
-    "description": "Evaluate visual presentations for doctors with computer according to design guidelines.",
-    "key_points": [
-      "Analyzed visual aids shown to doctors for visual appeal.",
-      "Optimized the design of slides by improving color balance and layout."
-    ],
-    "tech_stack": ["OpenCV", "PyTorch"],
-    "tags": [
-      "visual analysis",
-      "data visualization",
-      "computer vision",
-      "image segmentation"
-    ],
-    "organization": "Dr. Reddy's Laboratory",
-    "duration": "Aug 2021 - May 2023"
-  },
-  {
-    "project_id": "PRS003",
-    "project_name": "Interact with My Resume Using LLM",
-    "description": "Developed an interactive portfolio application with personal AI Agent.",
-    "key_points": [
-      "Developed a large language model to interact with the resume and answer queries about experience, skills, and projects.",
-      "Build RAG and function calling capabilities for interactive experience.",
-      "Developed a React application for the front-end."
-    ],
-    "tech_stack": ["Llama.cpp", "FastAPI", "React"],
-    "tags": [
-      "large language models",
-      "interactive applications",
-      "AI",
-      "full stack",
-      "React",
-      "Llama.cpp"
-    ],
-    "organization": "Personal Project",
-    "duration": "October 2023"
-  },
-  {
-    "project_id": "PRS001",
-    "project_name": "Auto Team Detection of Bundesliga Matches",
-    "description": "Automate sports analytics with AI-driven team and ball detection for Bundesliga matches.",
-    "key_points": [
-      "Used YOLOv7 for human and ball detection.",
-      "Applied computer vision and ML methods to detect jersey colors."
-    ],
-    "tech_stack": ["OpenCV", "YOLOv7", "Scikit-learn", "PyTorch"],
-    "tags": ["computer vision", "sports analytics", "AI", "PyTorch"],
-    "organization": "Personal Project",
-    "duration": "March - April 2022"
-  },
-  {
-    "project_id": "AIL002",
-    "project_name": "Business Analytics with AI",
-    "description": "Transform business data into actionable insights using AI and classical statistics.",
-    "key_points": [
-      "Developed models to understand business data, trends, and generate actionable insights."
-    ],
-    "tech_stack": ["Stochastic Dominance", "Streamlit", "Scikit-learn"],
-    "tags": ["business analytics", "AI", "data visualization"],
-    "organization": "AI Lens",
-    "duration": "June 2024 - Present"
-  },
-  {
-    "project_id": "SYN003",
-    "project_name": "Plant Phenotyping",
-    "description": "Crop analysis with drone-based image segmentation and hybrid mapping.",
-    "key_points": [
-      "Developed a model to segment crop leaves from drone images.",
-      "Segment grid like plots in the field and map them to appropriate hybrids."
-    ],
-    "tech_stack": ["OpenCV", "PyTorch", "YOLOv7"],
-    "tags": ["image segmentation", "agriculture", "machine learning"],
-    "organization": "Syngenta India Pvt. Ltd.",
-    "duration": "June 2023 - May 2024"
-  },
-  {
-    "project_id": "ISI003",
-    "project_name": "E2E NLG Challenge",
-    "description": "Generate restaurant descriptions in natural language from structured data using transformers.",
-    "key_points": [
-      "Built a transformer-based model from scratch to convert structured data about restaurants into text.",
-      "Work on novel approaches to improve the quality of generated text."
-    ],
-    "tech_stack": ["PyTorch", "Transformers", "BERT"],
-    "tags": ["natural language generation (NLG)", "transformers", "AI"],
-    "organization": "Indian Statistical Institute (Prof: Uptal Garain)",
-    "duration": "Jan - May 2021"
-  },
-  {
-    "project_id": "SYN001",
-    "project_name": "Genotypes Clustering",
-    "description": "Discover genetic patterns with advanced clustering and interactive visualizations.",
-    "key_points": [
-      "Implemented clustering algorithm to group similar genotypes based on genetic makeup.",
-      "Visualized clusters using UMAP."
-    ],
-    "tech_stack": ["UMAP", "Scikit-learn", "Streamlit", "Plotly"],
-    "tags": ["clustering", "genetics", "visualization"],
-    "organization": "Syngenta India Pvt. Ltd.",
-    "duration": "June 2023 - May 2024"
-  },
-  {
-    "project_id": "SYN002",
-    "project_name": "Genotype Cluster Validation using Hierarchy",
-    "description": "Validate genetic clusters with hierarchical visualization for deeper insights.",
-    "key_points": [
-      "Validated and visualized clustering algorithm with genetic hierarchy."
-    ],
-    "tech_stack": ["Dendrograms", "SciPy", "Streamlit"],
-    "tags": ["clustering validation", "genetics", "hierarchical visualization"],
-    "organization": "Syngenta India Pvt. Ltd.",
-    "duration": "June 2023 - May 2024"
-  },
-  {
-    "project_id": "AIL003",
-    "project_name": "Social Media Analytics",
-    "description": "Visualize and analyze social media engagement with machine learning.",
-    "key_points": [
-      "Developed a model to analyze social media interaction and engagement data.",
-      "Built a dashboard to visualize trends and engagement metrics."
-    ],
-    "tech_stack": ["Streamlit", "LLM", "machine learning"],
-    "tags": [
-      "social media analytics",
-      "dashboard development",
-      "data visualization",
-      "full stack",
-      "React"
-    ],
-    "organization": "AI Lens",
-    "duration": "June 2024 - Present"
-  },
-
-  {
-    "project_id": "PRS002",
-    "project_name": "Predicting Survival Chances of Passengers in Titanic",
-    "description": "Predict Titanic survival with robust ensemble models and feature engineering.",
-    "key_points": [
-      "Built an ensemble model combining decision trees, random forests, and other classifiers.",
-      "Achieved high prediction accuracy using ensemble learning."
-    ],
-    "tech_stack": ["Scikit-learn", "XGBoost", "Machine learning models"],
-    "tags": [
-      "classification",
-      "ensemble learning",
-      "data science",
-      "feature engineering"
-    ],
-    "organization": "Personal Project",
-    "duration": "March 2020"
-  },
-  {
-    "project_id": "ISI001",
-    "project_name": "Inspecting Insurance Availability in Chicago",
-    "description": "Uncover insurance trends in Chicago using regression and data analysis.",
-    "key_points": [
-      "Performed linear regression and outlier detection.",
-      "Analyzed trends in insurance availability and demographic impact."
-    ],
-    "tech_stack": ["R", "ggplot2", "dplyr", "Linear Regression"],
-    "tags": ["linear regression", "data analysis", "R"],
-    "organization": "Indian Statistical Institute (Prof: Swagata Nandi)",
-    "duration": "October - November 2019"
-  },
-  {
-    "project_id": "ISI002",
-    "project_name": "Analysis of Egyptian Skull Data",
-    "description": "Classify ancient skulls with discriminant and factor analysis in R.",
-    "key_points": [
-      "Applied linear discriminant analysis and factor analysis to classify skulls of different ages."
-    ],
-    "tech_stack": ["R", "MASS", "Factor Analysis"],
-    "tags": ["discriminant analysis", "factor analysis", "R"],
-    "organization": "Indian Statistical Institute (Prof: Swagata Nandi)",
-    "duration": "March - May 2020"
-  },
-  {
-    "project_id": "DRL001",
-    "project_name": "Google Of Investigations",
-    "description": "Accelerate incident investigations with a custom search engine using BM25 and tf-idf.",
-    "key_points": [
-      "Built a search engine from scratch for incident investigations within the company.",
-      "Use of BM25 and tf-idf for fast and accurate search results."
-    ],
-    "tech_stack": ["bm25", "tf-idf"],
-    "tags": ["search engine", "incident investigations", "automation"],
-    "organization": "Dr. Reddy's Laboratory",
-    "duration": "Aug 2021 - May 2023"
-  },
-  {
-    "project_id": "DRL002",
-    "project_name": "Stability Failure Prediction",
-    "description": "Boost product stability testing with predictive modeling and historical data analysis.",
-    "key_points": [
-      "Predicted whether a product will fail in a particular test based on past timepoints and historical data.",
-      "Improved stability testing accuracy by 15%."
-    ],
-    "tech_stack": ["Scikit-learn", "Pandas"],
-    "tags": [
-      "predictive modeling",
-      "stability testing",
-      "machine learning",
-      "anomaly detection"
-    ],
-    "organization": "Dr. Reddy's Laboratory",
-    "duration": "Aug 2021 - May 2023"
-  },
-  {
-    "project_id": "DRL003",
-    "project_name": "Cost of Poor Quality",
-    "description": "Reduce manufacturing errors by analyzing batch quality and root causes.",
-    "key_points": [
-      "Identified reasons behind poor quality in manufactured batches of a drug.",
-      "Reduced error rates in batch production by 12%."
-    ],
-    "tech_stack": ["Tableau", "Scikit-learn", "Pandas"],
-    "tags": ["quality analysis", "manufacturing", "root cause analysis"],
-    "organization": "Dr. Reddy's Laboratory",
-    "duration": "Aug 2021 - May 2023"
-  },
-  {
-    "project_id": "DRL004",
-    "project_name": "Smart Scheduler",
-    "description": "Optimize medical visit schedules with intelligent genetic algorithms.",
-    "key_points": [
-      "Created an intelligent scheduler using a genetic algorithm for medical representative visits.",
-      "Increased scheduling efficiency by 25%."
-    ],
-    "tech_stack": ["Genetic Algorithms", "Pandas"],
-    "tags": ["scheduling", "optimization", "AI"],
-    "organization": "Dr. Reddy's Laboratory",
-    "duration": "Aug 2021 - May 2023"
-  },
-  {
-    "project_id": "DRL005",
-    "project_name": "Brand Gini",
-    "description": "Recommend top brands and products using data-driven analysis of prescriptions.",
-    "key_points": [
-      "Suggested relevant products and brands based on past prescriptions and brand popularity."
-    ],
-    "tech_stack": ["Pandas"],
-    "tags": ["recommendation systems", "data analysis"],
-    "organization": "Dr. Reddy's Laboratory",
-    "duration": "Aug 2021 - May 2023"
-  },
-  {
-    "project_id": "DRL006",
-    "project_name": "RCA (Root Cause Analysis)",
-    "description": "Drive performance improvement with actionable root cause analysis and ML.",
-    "key_points": [
-      "Conducted root cause analysis of poor performance at headquarters.",
-      "Proposed actionable solutions to improve performance by 10%."
-    ],
-    "tech_stack": ["SQL", "Scikit-learn"],
-    "tags": [
-      "root cause analysis",
-      "performance improvement",
-      "machine learning"
-    ],
-    "organization": "Dr. Reddy's Laboratory",
-    "duration": "Aug 2021 - May 2023"
-  }
+    {
+        "project_id": "AIL004",
+        "project_name": "AI Powered Code Editor for Clinical Trials",
+        "description": "AI-powered code editor end-to-end to assist in clinical trial data analysis.",
+        "key_points": [
+            "Build sophisticated AI Agent with code creation, editing, and shell commands execution capabilities.",
+            "Fully integrated support for MCP servers",
+            "Developed a user-friendly interface with Angular and FastAPI."
+        ],
+        "tech_stack": [
+            "LLM",
+            "Agent",
+            "FastAPI",
+            "Angular"
+        ],
+        "tags": [
+            "AI Agent",
+            "LLM",
+            "Editor",
+            "full stack"
+        ],
+        "organization": "AI Lens",
+        "duration": "June 2024 - December 2025"
+    },
+    {
+        "project_id": "PRS004",
+        "project_name": "Interact - Open Source Library",
+        "description": "Provide a user-friendly open-source library for building conversational AI agents with LLMs.",
+        "key_points": [
+            "Created and maintained an open-source library called Interact as an alternative to LangChain.",
+            "Provided a user-friendly API for building conversational agents with LLMs."
+        ],
+        "tech_stack": [
+            "LLM",
+            "Open Source"
+        ],
+        "tags": [
+            "open source",
+            "LLMs",
+            "conversational agents"
+        ],
+        "organization": "Personal Project",
+        "duration": "Ongoing"
+    },
+    {
+        "project_id": "AIL001",
+        "project_name": "Instruction tune LLM",
+        "description": "Advanced LLM finetuning for converting SAS codes into R.",
+        "key_points": [
+            "Finetuned a large language model to convert SAS code to R and vice versa.",
+            "Prepare synthetic dataset with prompt and response pairs for code conversion."
+        ],
+        "tech_stack": [
+            "PyTorch",
+            "Transformers",
+            "Axolotl"
+        ],
+        "tags": [
+            "fine tuning",
+            "AI",
+            "LLM"
+        ],
+        "organization": "AI Lens",
+        "duration": "June 2024 - December 2025"
+    },
+    {
+        "project_id": "DRL007",
+        "project_name": "Visual-Aid Analysis",
+        "description": "Evaluate visual presentations for doctors with computer according to design guidelines.",
+        "key_points": [
+            "Analyzed visual aids shown to doctors for visual appeal.",
+            "Optimized the design of slides by improving color balance and layout."
+        ],
+        "tech_stack": [
+            "OpenCV",
+            "PyTorch"
+        ],
+        "tags": [
+            "visual analysis",
+            "data visualization",
+            "computer vision",
+            "image segmentation"
+        ],
+        "organization": "Dr. Reddy's Laboratory",
+        "duration": "Aug 2021 - May 2023"
+    },
+    {
+        "project_id": "PRS003",
+        "project_name": "Interact with My Resume Using LLM",
+        "description": "Developed an interactive portfolio application with personal AI Agent.",
+        "key_points": [
+            "Developed a large language model to interact with the resume and answer queries about experience, skills, and projects.",
+            "Build RAG and function calling capabilities for interactive experience.",
+            "Developed a React application for the front-end."
+        ],
+        "tech_stack": [
+            "Llama.cpp",
+            "FastAPI",
+            "React"
+        ],
+        "tags": [
+            "large language models",
+            "interactive applications",
+            "AI",
+            "full stack",
+            "React",
+            "Llama.cpp"
+        ],
+        "organization": "Personal Project",
+        "duration": "October 2023"
+    },
+    {
+        "project_id": "PRS001",
+        "project_name": "Auto Team Detection of Bundesliga Matches",
+        "description": "Automate sports analytics with AI-driven team and ball detection for Bundesliga matches.",
+        "key_points": [
+            "Used YOLOv7 for human and ball detection.",
+            "Applied computer vision and ML methods to detect jersey colors."
+        ],
+        "tech_stack": [
+            "OpenCV",
+            "YOLOv7",
+            "Scikit-learn",
+            "PyTorch"
+        ],
+        "tags": [
+            "computer vision",
+            "sports analytics",
+            "AI",
+            "PyTorch"
+        ],
+        "organization": "Personal Project",
+        "duration": "March - April 2022"
+    },
+    {
+        "project_id": "AIL002",
+        "project_name": "Business Analytics with AI",
+        "description": "Transform business data into actionable insights using AI and classical statistics.",
+        "key_points": [
+            "Developed models to understand business data, trends, and generate actionable insights."
+        ],
+        "tech_stack": [
+            "Stochastic Dominance",
+            "Streamlit",
+            "Scikit-learn"
+        ],
+        "tags": [
+            "business analytics",
+            "AI",
+            "data visualization"
+        ],
+        "organization": "AI Lens",
+        "duration": "June 2024 - December 2025"
+    },
+    {
+        "project_id": "SYN003",
+        "project_name": "Plant Phenotyping",
+        "description": "Crop analysis with drone-based image segmentation and hybrid mapping.",
+        "key_points": [
+            "Developed a model to segment crop leaves from drone images.",
+            "Segment grid like plots in the field and map them to appropriate hybrids."
+        ],
+        "tech_stack": [
+            "OpenCV",
+            "PyTorch",
+            "YOLOv7"
+        ],
+        "tags": [
+            "image segmentation",
+            "agriculture",
+            "machine learning"
+        ],
+        "organization": "Syngenta India Pvt. Ltd.",
+        "duration": "June 2023 - May 2024"
+    },
+    {
+        "project_id": "ISI003",
+        "project_name": "E2E NLG Challenge",
+        "description": "Generate restaurant descriptions in natural language from structured data using transformers.",
+        "key_points": [
+            "Built a transformer-based model from scratch to convert structured data about restaurants into text.",
+            "Work on novel approaches to improve the quality of generated text."
+        ],
+        "tech_stack": [
+            "PyTorch",
+            "Transformers",
+            "BERT"
+        ],
+        "tags": [
+            "natural language generation (NLG)",
+            "transformers",
+            "AI"
+        ],
+        "organization": "Indian Statistical Institute (Prof: Uptal Garain)",
+        "duration": "Jan - May 2021"
+    },
+    {
+        "project_id": "SYN001",
+        "project_name": "Genotypes Clustering",
+        "description": "Discover genetic patterns with advanced clustering and interactive visualizations.",
+        "key_points": [
+            "Implemented clustering algorithm to group similar genotypes based on genetic makeup.",
+            "Visualized clusters using UMAP."
+        ],
+        "tech_stack": [
+            "UMAP",
+            "Scikit-learn",
+            "Streamlit",
+            "Plotly"
+        ],
+        "tags": [
+            "clustering",
+            "genetics",
+            "visualization"
+        ],
+        "organization": "Syngenta India Pvt. Ltd.",
+        "duration": "June 2023 - May 2024"
+    },
+    {
+        "project_id": "SYN002",
+        "project_name": "Genotype Cluster Validation using Hierarchy",
+        "description": "Validate genetic clusters with hierarchical visualization for deeper insights.",
+        "key_points": [
+            "Validated and visualized clustering algorithm with genetic hierarchy."
+        ],
+        "tech_stack": [
+            "Dendrograms",
+            "SciPy",
+            "Streamlit"
+        ],
+        "tags": [
+            "clustering validation",
+            "genetics",
+            "hierarchical visualization"
+        ],
+        "organization": "Syngenta India Pvt. Ltd.",
+        "duration": "June 2023 - May 2024"
+    },
+    {
+        "project_id": "AIL003",
+        "project_name": "Social Media Analytics",
+        "description": "Visualize and analyze social media engagement with machine learning.",
+        "key_points": [
+            "Developed a model to analyze social media interaction and engagement data.",
+            "Built a dashboard to visualize trends and engagement metrics."
+        ],
+        "tech_stack": [
+            "Streamlit",
+            "LLM",
+            "machine learning"
+        ],
+        "tags": [
+            "social media analytics",
+            "dashboard development",
+            "data visualization",
+            "full stack",
+            "React"
+        ],
+        "organization": "AI Lens",
+        "duration": "June 2024 - December 2025"
+    },
+    {
+        "project_id": "PRS002",
+        "project_name": "Predicting Survival Chances of Passengers in Titanic",
+        "description": "Predict Titanic survival with robust ensemble models and feature engineering.",
+        "key_points": [
+            "Built an ensemble model combining decision trees, random forests, and other classifiers.",
+            "Achieved high prediction accuracy using ensemble learning."
+        ],
+        "tech_stack": [
+            "Scikit-learn",
+            "XGBoost",
+            "Machine learning models"
+        ],
+        "tags": [
+            "classification",
+            "ensemble learning",
+            "data science",
+            "feature engineering"
+        ],
+        "organization": "Personal Project",
+        "duration": "March 2020"
+    },
+    {
+        "project_id": "ISI001",
+        "project_name": "Inspecting Insurance Availability in Chicago",
+        "description": "Uncover insurance trends in Chicago using regression and data analysis.",
+        "key_points": [
+            "Performed linear regression and outlier detection.",
+            "Analyzed trends in insurance availability and demographic impact."
+        ],
+        "tech_stack": [
+            "R",
+            "ggplot2",
+            "dplyr",
+            "Linear Regression"
+        ],
+        "tags": [
+            "linear regression",
+            "data analysis",
+            "R"
+        ],
+        "organization": "Indian Statistical Institute (Prof: Swagata Nandi)",
+        "duration": "October - November 2019"
+    },
+    {
+        "project_id": "ISI002",
+        "project_name": "Analysis of Egyptian Skull Data",
+        "description": "Classify ancient skulls with discriminant and factor analysis in R.",
+        "key_points": [
+            "Applied linear discriminant analysis and factor analysis to classify skulls of different ages."
+        ],
+        "tech_stack": [
+            "R",
+            "MASS",
+            "Factor Analysis"
+        ],
+        "tags": [
+            "discriminant analysis",
+            "factor analysis",
+            "R"
+        ],
+        "organization": "Indian Statistical Institute (Prof: Swagata Nandi)",
+        "duration": "March - May 2020"
+    },
+    {
+        "project_id": "DRL001",
+        "project_name": "Google Of Investigations",
+        "description": "Accelerate incident investigations with a custom search engine using BM25 and tf-idf.",
+        "key_points": [
+            "Built a search engine from scratch for incident investigations within the company.",
+            "Use of BM25 and tf-idf for fast and accurate search results."
+        ],
+        "tech_stack": [
+            "bm25",
+            "tf-idf"
+        ],
+        "tags": [
+            "search engine",
+            "incident investigations",
+            "automation"
+        ],
+        "organization": "Dr. Reddy's Laboratory",
+        "duration": "Aug 2021 - May 2023"
+    },
+    {
+        "project_id": "DRL002",
+        "project_name": "Stability Failure Prediction",
+        "description": "Boost product stability testing with predictive modeling and historical data analysis.",
+        "key_points": [
+            "Predicted whether a product will fail in a particular test based on past timepoints and historical data.",
+            "Improved stability testing accuracy by 15%."
+        ],
+        "tech_stack": [
+            "Scikit-learn",
+            "Pandas"
+        ],
+        "tags": [
+            "predictive modeling",
+            "stability testing",
+            "machine learning",
+            "anomaly detection"
+        ],
+        "organization": "Dr. Reddy's Laboratory",
+        "duration": "Aug 2021 - May 2023"
+    },
+    {
+        "project_id": "DRL003",
+        "project_name": "Cost of Poor Quality",
+        "description": "Reduce manufacturing errors by analyzing batch quality and root causes.",
+        "key_points": [
+            "Identified reasons behind poor quality in manufactured batches of a drug.",
+            "Reduced error rates in batch production by 12%."
+        ],
+        "tech_stack": [
+            "Tableau",
+            "Scikit-learn",
+            "Pandas"
+        ],
+        "tags": [
+            "quality analysis",
+            "manufacturing",
+            "root cause analysis"
+        ],
+        "organization": "Dr. Reddy's Laboratory",
+        "duration": "Aug 2021 - May 2023"
+    },
+    {
+        "project_id": "DRL004",
+        "project_name": "Smart Scheduler",
+        "description": "Optimize medical visit schedules with intelligent genetic algorithms.",
+        "key_points": [
+            "Created an intelligent scheduler using a genetic algorithm for medical representative visits.",
+            "Increased scheduling efficiency by 25%."
+        ],
+        "tech_stack": [
+            "Genetic Algorithms",
+            "Pandas"
+        ],
+        "tags": [
+            "scheduling",
+            "optimization",
+            "AI"
+        ],
+        "organization": "Dr. Reddy's Laboratory",
+        "duration": "Aug 2021 - May 2023"
+    },
+    {
+        "project_id": "DRL005",
+        "project_name": "Brand Gini",
+        "description": "Recommend top brands and products using data-driven analysis of prescriptions.",
+        "key_points": [
+            "Suggested relevant products and brands based on past prescriptions and brand popularity."
+        ],
+        "tech_stack": [
+            "Pandas"
+        ],
+        "tags": [
+            "recommendation systems",
+            "data analysis"
+        ],
+        "organization": "Dr. Reddy's Laboratory",
+        "duration": "Aug 2021 - May 2023"
+    },
+    {
+        "project_id": "DRL006",
+        "project_name": "RCA (Root Cause Analysis)",
+        "description": "Drive performance improvement with actionable root cause analysis and ML.",
+        "key_points": [
+            "Conducted root cause analysis of poor performance at headquarters.",
+            "Proposed actionable solutions to improve performance by 10%."
+        ],
+        "tech_stack": [
+            "SQL",
+            "Scikit-learn"
+        ],
+        "tags": [
+            "root cause analysis",
+            "performance improvement",
+            "machine learning"
+        ],
+        "organization": "Dr. Reddy's Laboratory",
+        "duration": "Aug 2021 - May 2023"
+    }
 ]

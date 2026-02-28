@@ -48,7 +48,6 @@ class SocialMediaProfiles(BaseModel):
 class PersonalInformation(BaseModel):
     Name: str
     DOB: str
-    Age: int
     Residing_location: str = Field(alias="Residing location")
     Nationality: str
     Languages: List[str]
