@@ -98,6 +98,7 @@ class BlogItem(BaseModel):
     headline: str
     description: str
     link: str
+    tags: list[str]
 
 
 BlogsData = list[BlogItem]

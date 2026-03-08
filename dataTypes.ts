@@ -86,6 +86,7 @@ export interface BlogItem {
     headline: string;
     description: string;
     link: string;
+    tags: string[];
 }
 
 export type BlogsData = BlogItem[];
