@@ -81,3 +81,11 @@ export interface ProjectItem {
 }
 
 export type ProjectsData = ProjectItem[];
+
+export interface BlogItem {
+    headline: string;
+    description: string;
+    link: string;
+}
+
+export type BlogsData = BlogItem[];

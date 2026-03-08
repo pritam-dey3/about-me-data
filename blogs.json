@@ -1,0 +1,12 @@
+[
+    {
+        "headline": "Beyond RAG: Our Shift to an Agentic System",
+        "description": "Why a pure RAG setup hits its limits and how we evolved the architecture into a fully agentic system with tool use, planning loops, and dynamic context management.",
+        "link": "https://www.linkedin.com/pulse/beyond-rag-our-shift-agentic-system-pritam-dey-za4sc"
+    },
+    {
+        "headline": "ReplayLLM — File-based LLM Provider for LiteLLM",
+        "description": "ReplayLLM is a drop-in LiteLLM provider that replays pre-scripted responses from a file—including streaming and tool calls—without hitting a real model, enabling fully deterministic integration tests for AI agents.",
+        "link": "https://gist.github.com/pritam-dey3/04fb18063eb525fec88ffe58ba234678"
+    }
+]
