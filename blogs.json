@@ -9,6 +9,16 @@
         ]
     },
     {
+        "headline": "A Peek into Sarvam AI's Vocabulary: How Well Does It Understand Indian Languages?",
+        "description": "A data-driven analysis of how well Sarvam AI's tokenizer represents Indic languages compared to Phi-4, Qwen, and GPT-OSS. Examines vocabulary coverage, tokenization fluency, and morphological depth across Hindi, Bengali, Telugu, and Tamil to understand what genuine linguistic investment in Indian languages looks like.",
+        "link": "https://dev.to/pritam_dey/a-peek-into-sarvam-ais-vocabulary-how-well-does-it-understand-indian-languages-2o92",
+        "tags": [
+            "LLM",
+            "Tokenization",
+            "Indic Languages"
+        ]
+    },
+    {
         "headline": "ReplayLLM — File-based LLM Provider for LiteLLM",
         "description": "ReplayLLM is a drop-in LiteLLM provider that replays pre-scripted responses from a file—including streaming and tool calls—without hitting a real model, enabling fully deterministic integration tests for AI agents.",
         "link": "https://gist.github.com/pritam-dey3/04fb18063eb525fec88ffe58ba234678",
